@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <link rel="stylesheet" href="projet.css">
+        <title>Votre Projet</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <img src="img/logo_abrege.png" alt="petit logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Nos services</a></li>
+                    <li><a href="#">Nos solutions</a></li>
+                    <li><a href="projet.html">Mon projet</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="section_1">
+            <img src="img/lsg.png" alt="grand logo" id=img_2>
+        </section>
+        <section id="section_2">
+            <h1>Demande devis personnalisé</h1>
+            <fieldset>
+                <legend>Merci de remplir ce formulaire pour un devis personnalisé</legend>
+                <form>
+                    <table>
+                        <tr>
+                            <td><input type="radio" name="pro" id="particulier"><label for="particulier">Particulier</label></td><td><input type="radio" name="pro" id="professionnel"><label for="professionnel">Professionnel</label></td>
+                        </tr>
+                        <tr>                            
+                            <td>Civilité :</td><td><select><option value="">Choisissez votre civilité</option><option value="M">Homme</option><option value="F">Femme</option></select></td>
+                        </tr>
+                        <tr>
+                            <td>Nom :</td><td><input type="text" name="Nom" placeholder="Votre nom"></td><td>Prénom :</td><td><input type="text" name="prenom" placeholder="Votre prénom"></td>
+                        </tr>
+                        <tr>
+                            <td>Date de naissance :</td><td><input type="Date" name="naissance"></td><td>E-mail :</td><td><input type="text" name="e-mail" placeholder="Votre email"></td>
+                        </tr>
+                        <tr>
+                            <td>Téléphone :</td><td><input type="text" name="tel" placeholder="Votre téléphone"></td><td>Adresse :</td><td><input type="text" name="addr" placeholder="Votre adresse"></td>
+                        </tr>
+                        <tr>
+                            <td>Votre budget : </td><td><input type="range" name="money"></td><td>Votre pièce d'identité :</td><td><input type="file" name="cni" placeholder="Choisir un fichier"></td>
+                        </tr>
+                        <tr>
+                            <td>Votre message :</td><td><textarea placeholder="Votre message"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="envoie" value="Envoyer"></td><td><input type="reset" name="anul" value="Annuler"></td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+        </section>
+        <footer>
+            <img src="img/logo_abrege.png" alt="petit logo">
+            <address>
+                ZAC des Longs Courts
+                <br>
+                14111 Louvigny
+            </address>
+            <ul>
+                <li><a href="#">Qui sommes nous ?</a></li>
+                <li><a href="#">Achat / vente</a></li>
+                <li><a href="#">Terrains</a></li>
+                <li><a href="#">Constructions</a></li>
+                <li><a href="projet.html">Mon projet</a></li>
+            </ul>
+        </footer>
+    </body>

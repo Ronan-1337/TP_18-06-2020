@@ -1,0 +1,204 @@
+.inter-section
+{
+	background-color: #131935;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	color: white;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+	align-self: center;
+	padding: 0% 1% 0% 1%;
+	margin: -30px auto -30px auto;
+	font-weight: bold;
+}
+
+body
+{
+	display: flex;
+	flex-flow: column;
+}
+
+header
+{	
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+}
+
+header img
+{
+	background-color: #131935;
+	height: 25px;
+	padding: 35px;
+}
+
+header nav
+{
+	width: 80%;
+}
+
+header nav ul li
+{
+	display: inline;
+	margin-right: 5%;
+}
+
+header nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+#section_1
+{
+	z-index: 1;
+	background-image: url("img/bg-dot.jpg");
+	height: 480px;
+	display: flex;
+	justify-content: center;
+}
+
+#section_1 img
+{
+	align-self: center;
+}
+
+#section_2
+{
+	z-index: 1;
+	background-image:	linear-gradient(rgba(125,130,150,0.5),
+										rgba(125,130,150,0.5)),
+						url(img/bg-bloc1.jpg);
+	height: 625px;
+	display: flex;
+	align-items: center;
+}
+
+#section_2 div
+{
+	padding: 2%;
+	margin-left: 5%;
+	height: 60%;
+	width: 30%;
+	background-color: white;
+	color: #131935;
+}
+
+#section_2 div h1
+{
+	font-size: 50px;
+	margin: -1%;
+}
+
+#section_2 div p
+{
+	font-size: 25px;
+}
+
+#is_1
+{
+
+}
+
+#section_3
+{
+	z-index: 1;
+	background-image:	linear-gradient(rgba(165,220,220,0.5),
+										rgba(165,220,220,0.5)),
+						url(img/bg-bloc2.jpg);
+	height: 625px;
+	display: flex;
+	align-items: center;
+}
+
+#section_3 p
+{
+	flex-basis: auto;
+	flex-grow: 2;
+}
+
+#section_3 ul
+{
+	flex-grow: 1;
+	display: flex;
+	flex-flow: column;
+}
+
+#section_3 ul li
+{
+	margin: 1%;
+	display: inline-block;
+	background-color: white;
+	border-left-style: solid;
+	border-color: #131935;
+	border-left-width: 15px;
+	padding: 3%;
+}
+
+#section_3 ul li a
+{
+	text-decoration: none;
+	color: #131935;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#section_4
+{
+	z-index: 1;
+	background-image:	linear-gradient(rgba(230,200,135,0.5),
+										rgba(230,200,135,0.5)),
+						url(img/bg-bloc3.jpg);
+	height: 625px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#section_4 img
+{
+	height: 65%;
+}
+
+footer
+{
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 5px;
+	color: white;
+	background-color: #131935;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 10px;
+}
+
+footer img
+{
+	height: 20px;
+}
+
+footer ul
+{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}
+
+footer ul li
+{
+	display: inline;
+}
+
+footer ul li a
+{
+	text-decoration: none;
+	color: white;
+}
